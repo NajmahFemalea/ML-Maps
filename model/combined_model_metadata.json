@@ -1,0 +1,56 @@
+{
+    "name": "Combined Decision Tree Model",
+    "description": "Combined model for predicting SPBU, Rest, and Penginapan",
+    "version": "1.0.0",
+    "author": "MLCohort",
+    "license": "Apache License 2.0",
+    "input": {
+        "x": {
+            "description": "Input tensor",
+            "type": "float32",
+            "shape": [
+                -1,
+                3
+            ],
+            "content": {
+                "content_type": "text",
+                "content_data": "Numeric data representing features"
+            }
+        }
+    },
+    "output": {
+        "result_Spbu": {
+            "description": "Output for SPBU recommendation",
+            "type": "float32",
+            "shape": [
+                1
+            ],
+            "content": {
+                "content_type": "text",
+                "content_data": "Binary classification result (0 or 1)"
+            }
+        },
+        "result_Rest": {
+            "description": "Output for Restaurant recommendation",
+            "type": "float32",
+            "shape": [
+                1
+            ],
+            "content": {
+                "content_type": "text",
+                "content_data": "Binary classification result (0 or 1)"
+            }
+        },
+        "result_Penginapan": {
+            "description": "Output for Penginapan recommendation",
+            "type": "float32",
+            "shape": [
+                1
+            ],
+            "content": {
+                "content_type": "text",
+                "content_data": "Binary classification result (0 or 1)"
+            }
+        }
+    }
+}
