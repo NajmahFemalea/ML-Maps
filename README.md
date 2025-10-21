@@ -1,4 +1,4 @@
-# NUSA MAPS
+# NusaMaps: AI-Powered Stop Recommendations for Long-Distance Trip Planning
 ## 📖 Overview
 Nusa Maps is an Android application designed to enhance the travel experience by providing automatic recommendations for rest stops along a user’s route.
 The app focuses on suggesting:<br>
